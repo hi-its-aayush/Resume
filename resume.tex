@@ -6,39 +6,43 @@
 \usepackage{fancyhdr}
 \usepackage{enumitem}
 \usepackage[T1]{fontenc}
+\usepackage{lmodern} % Sharper, cleaner font rendering
 \input{glyphtounicode}
 
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 
-% --- MARGINS (Standard and Clean) ---
+% --- MARGINS ---
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
 
+% --- SPACING & FORMATTING ---
 \titleformat{\section}{\scshape\raggedright\large}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
 
 \pdfgentounicode=1
 \raggedright
 \raggedbottom
-\setlist[itemize]{noitemsep,topsep=2pt,leftmargin=0.15in}
+\setlist[itemize]{itemsep=1.5pt, parsep=0pt, topsep=2pt, leftmargin=0.15in}
 
 \begin{document}
 
 %----------HEADER----------
 \begin{center}
-{\Huge \scshape Aayush Acharya}\\[2pt]
+{\Huge \scshape Aayush Acharya}\\[4pt]
 \small Liverpool, NSW \textbar\ 0448 113 330 \textbar\
-\href{mailto:aayushh@outlook.com.au}{aayushh@outlook.com.au} \textbar\
-\href{https://linkedin.com/in/aayushacharya}{linkedin.com/in/aayushacharya}\\[2pt]
+\href{mailto:aayushh@outlook.com.au}{aayushh@outlook.com.au} \\
+\href{https://linkedin.com/in/aayushacharya}{linkedin.com/in/aayushacharya} \textbar\
+\href{https://aayushacharya.com.au}{aayushacharya.com.au}\\[4pt]
 \textbf{IT Support Officer / Service Desk Analyst \textbar\ Full Working Rights}
 \end{center}
 
 %----------SUMMARY----------
 \section{Professional Summary}
-Entry-level Service Desk Analyst with Level 1 IT support experience for 200+ users across multi-site environments. Skilled in Windows 10/11, Microsoft 365, Active Directory, hardware troubleshooting, and incident management via Freshservice and ServiceNow. Strong first-call resolution record and SLA adherence with clear user communication.
+Service Desk Analyst with Level 1 IT support experience for 200+ users across multi-site environments. Skilled in Windows 10/11, macOS, Microsoft 365, Jamf, and incident management via Freshservice and ServiceNow. Strong first-call resolution record and SLA adherence with clear user communication.
 
 %----------CORE SKILLS----------
 \section{Core Service Desk Skills}
@@ -46,15 +50,15 @@ Entry-level Service Desk Analyst with Level 1 IT support experience for 200+ use
 \begin{itemize}
   \item Level 1 IT Support / Service Desk
   \item Incident \& Request Management
-  \item Microsoft 365 (Outlook, Teams, OneDrive)
-  \item Active Directory (User Accounts, Resets)
+  \item Microsoft 365 (Teams, OneDrive)
+  \item Active Directory (User Accounts)
   \item Freshservice / ServiceNow
 \end{itemize}
 \end{minipage}\hfill
 \begin{minipage}[t]{0.48\textwidth}
 \begin{itemize}
-  \item Windows 10/11 Troubleshooting
-  \item Hardware \& Peripheral Support
+  \item Windows 10/11, macOS \& iOS Support
+  \item MDM Administration (Jamf, Intune)
   \item Remote Support Tools (TeamViewer)
   \item SLA Adherence \& Escalation
   \item End-User Communication
@@ -72,12 +76,14 @@ Entry-level Service Desk Analyst with Level 1 IT support experience for 200+ use
   \item Deliver calm, professional support under high-pressure, time-sensitive scenarios.
   \item Ensure all conference technology is operational, maintaining 100\% meeting availability.
 \end{itemize}
-\vspace{5pt}
+
+\vspace{3pt}
 
 \textbf{Service Desk / IT Support Officer} \hfill \textit{Jul 2023 to Sep 2025}\\
 \textit{AL ASEEL GROUP, Sydney, NSW}
 \begin{itemize}
   \item Acted as the primary Level 1 Support contact for 200+ users across 7 sites.
+  \item Managed fleet of iPad POS devices using Jamf, handling remote profiles, updates, and compliance.
   \item Administered user accounts and access permissions in Microsoft 365, Active Directory, and SaaS platforms including Lightspeed, Sevenrooms, Deputy, and Monday.com.
   \item Managed 3CX VoIP telephony system, handling extension creation, call routing, and handset provisioning.
   \item Troubleshot Windows 10/11 login issues, printer connectivity, and hardware faults using remote support tools.
@@ -85,31 +91,44 @@ Entry-level Service Desk Analyst with Level 1 IT support experience for 200+ use
   \item Escalated complex infrastructure issues to Level 2/3 teams with detailed troubleshooting documentation.
 \end{itemize}
 
+\vspace{3pt}
+
+\textbf{Hospitality \& Customer Service Leadership} \hfill \textit{2017 to 2023}
+\begin{itemize}
+  \item Developed strong conflict resolution, communication, and high-volume workflow management skills.
+\end{itemize}
+
+%----------TECHNICAL PROJECTS----------
+\section{Technical Projects \& Home Lab}
+\textbf{Microsoft 365 Enterprise Tenant Administration}
+\begin{itemize}
+  \item Deployed a production-grade M365 Business tenant, configuring Entra ID for user lifecycle management.
+  \item Configured MFA and Conditional Access policies to simulate enterprise identity security controls.
+  \item Validated Intune device enrollment policies and Autopilot configurations.
+\end{itemize}
+
 %----------CERTIFICATIONS----------
 \section{Certifications \& Training}
-\textit{Professional training via Coursera:} \href{https://aayushacharya.com.au/certifications.pdf}{\underline{(View Credentials Portfolio:aayushacharya.com.au/certifications.pdf)}}
+\textit{Professional training via Coursera:} \href{https://aayushacharya.com.au/certifications.pdf}{\underline{View Credentials Portfolio: aayushacharya.com.au/certifications.pdf}}
+\vspace{2pt}
+
+\begin{minipage}[t]{0.55\textwidth} 
 \begin{itemize}
-  \item Microsoft Certified: Endpoint Administrator Associate (MD-102)
+  \item Endpoint Administrator Associate (MD-102)
   \item Cisco Certified Support Technician (CCST)
-  \item ServiceNow Fundamentals (Incident Management)
-  \item CompTIA A+ (Core 1)
-  \item Google IT Support Professional Certificate
+  \item ServiceNow Fundamentals (Incident Mgmt)
 \end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.40\textwidth}
+\begin{itemize}
+  \item CompTIA A+ (Core 1)
+  \item Google IT Support Cert
+\end{itemize}
+\end{minipage}
 
 %----------EDUCATION----------
 \section{Education}
-\textbf{Bachelor of Computer Science (part-time/Online)} \hfill \textit{In Progress}\\
+\textbf{Bachelor of Computer Science (part-time/online)} \hfill \textit{In Progress}\\
 MANIPAL UNIVERSITY JAIPUR
-
-\vspace{3pt}
-\textbf{Bachelor of Information Technology (Partial Completion)} \hfill \\
-KING'S OWN INSTITUTE, Australia
-
-%----------ADDITIONAL EXPERIENCE----------
-\section{Additional Experience}
-\textbf{Various Hospitality and customer service roles} \hfill \textit{2017 to 2023}
-\begin{itemize}
-  \item Developed strong customer service, communication, and problem-solving skills.
-\end{itemize}
 
 \end{document}
