@@ -1,190 +1,115 @@
 \documentclass[letterpaper,10pt]{article}
 
-\usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\usepackage{fontawesome5}
+\usepackage{enumitem}
 \usepackage[T1]{fontenc}
 \input{glyphtounicode}
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
 
-% --- AGGRESSIVE MARGINS FOR 1-PAGE FIT ---
-\addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.6in}
-\addtolength{\textwidth}{1.2in}
-\addtolength{\topmargin}{-.6in}
-\addtolength{\textheight}{1.2in}
+% --- MARGINS (Standard and Clean) ---
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
 
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% --- TIGHT SECTION FORMATTING ---
-\titleformat{\section}{
-  \vspace{-8pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+\titleformat{\section}{\scshape\raggedright\large}{}{0em}{}[\titlerule]
 
 \pdfgentounicode=1
-
-% --- COMPACT ITEM SPACING ---
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-3pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-8pt}
-}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-5pt}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[label=$\bullet$]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+\raggedright
+\raggedbottom
+\setlist[itemize]{noitemsep,topsep=2pt,leftmargin=0.15in}
 
 \begin{document}
 
-%----------COMPACT HEADING----------
+%----------HEADER----------
 \begin{center}
-    \textbf{\Huge \scshape Aayush Acharya} \\ \vspace{2pt}
-    \small Liverpool, NSW 2170 $|$ 0448 113 330 $|$ \href{mailto:aayushh@outlook.com.au}{\underline{aayushh@outlook.com.au}} \\
-    \small \href{https://linkedin.com/in/aayushacharya}{\underline{linkedin.com/in/aayushacharya}} $|$ \href{https://github.com/hi-its-aayush}{\underline{github.com/hi-its-aayush}} $|$ \href{https://aayushacharya.com.au}{\underline{aayushacharya.com.au}} $|$ \textbf{Full Working Rights}
+{\Huge \scshape Aayush Acharya}\\[2pt]
+\small Liverpool, NSW \textbar\ 0448 113 330 \textbar\
+\href{mailto:aayushh@outlook.com.au}{aayushh@outlook.com.au} \textbar\
+\href{https://linkedin.com/in/aayushacharya}{linkedin.com/in/aayushacharya}\\[2pt]
+\textbf{IT Support Officer / Service Desk Analyst \textbar\ Full Working Rights}
 \end{center}
-\vspace{-8pt}
 
 %----------SUMMARY----------
 \section{Professional Summary}
-\small{IT Support Professional leveraging 8+ years of professional customer service experience with hands-on experience in M365 tenant administration, Entra ID, and Intune device management. Skilled in managing ITSM workflows via Freshservice and administering 3CX VoIP systems.}
+Entry-level Service Desk Analyst with Level 1 IT support experience for 200+ users across multi-site environments. Skilled in Windows 10/11, Microsoft 365, Active Directory, hardware troubleshooting, and incident management via Freshservice and ServiceNow. Strong first-call resolution record and SLA adherence with clear user communication.
 
-%----------RELEVANT IT EXPERIENCE----------
-\section{Relevant IT Experience}
-  \resumeSubHeadingListStart
+%----------CORE SKILLS----------
+\section{Core Service Desk Skills}
+\begin{minipage}[t]{0.48\textwidth}
+\begin{itemize}
+  \item Level 1 IT Support / Service Desk
+  \item Incident \& Request Management
+  \item Microsoft 365 (Outlook, Teams, OneDrive)
+  \item Active Directory (User Accounts, Resets)
+  \item Freshservice / ServiceNow
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\begin{itemize}
+  \item Windows 10/11 Troubleshooting
+  \item Hardware \& Peripheral Support
+  \item Remote Support Tools (TeamViewer)
+  \item SLA Adherence \& Escalation
+  \item End-User Communication
+\end{itemize}
+\end{minipage}
 
-    \resumeSubheading
-      {IT Support Officer}{July 2023 to July 2024}
-      {Al Aseel Group}{Bankstown, NSW}
-      \resumeItemListStart
-        \resumeItem{Provided Level 1/2 Support across 7 restaurant sites and a warehouse, managing the daily ticket queue in Freshservice.}
-        \resumeItem{Administered 3CX VoIP System, Digital Receptionists, and user onboarding/offboarding.}
-        \resumeItem{Escalated P1/P2 infrastructure incidents to L3 System Administrators with detailed root-cause analysis and logs.}
-        \resumeItem{Managed Microsoft Exchange Online, handling mailbox creation, distribution groups, and shared mailbox permissions.}
-        \resumeItem{Managed and maintained assets records including laptops, iPads for POS.}
-      \resumeItemListEnd
+%----------PROFESSIONAL EXPERIENCE----------
+\section{Professional Experience}
+
+\textbf{Conference \& Events Support} \hfill \textit{Sep 2025 to Present}\\
+\textit{PWC SYDNEY, Barangaroo, NSW}
+\begin{itemize}
+  \item Provide technical support for Microsoft Teams, Webex, and AV systems during executive meetings.
+  \item Log incidents in ServiceNow with clear, detailed notes, enabling fast escalation to Level 2/3 teams.
+  \item Deliver calm, professional support under high-pressure, time-sensitive scenarios.
+  \item Ensure all conference technology is operational, maintaining 100\% meeting availability.
+\end{itemize}
 \vspace{5pt}
-    \resumeSubheading
-      {Venue Systems and Operations Specialist}{July 2024 to September 2025}
-      {Al Aseel Group (The Paper Mill Food)}{Liverpool, NSW}
-      \resumeItemListStart
-        \resumeItem{Hybrid Operations \& IT Role: Served as the primary escalation point for POS (Lightspeed) and network configuration issues.}
-        \resumeItem{Maintained local network connectivity and configured ISP failover protocols, achieving 100\% trading uptime.}
-        \resumeItem{Managed user account lifecycle (onboarding/offboarding) in Lightspeed, Sevenrooms, Deputy, Monday.com for 25+ staff, ensuring strict Role-Based Access Control (RBAC) compliance.}
-        
-      \resumeItemListEnd
 
-  \resumeSubHeadingListEnd
+\textbf{Service Desk / IT Support Officer} \hfill \textit{Jul 2024 to Sep 2025}\\
+\textit{AL ASEEL GROUP, Sydney, NSW}
+\begin{itemize}
+  \item Acted as the primary Level 1 Support contact for 200+ users across 7 sites.
+  \item Administered user accounts and access permissions in Microsoft 365, Active Directory, and SaaS platforms including Lightspeed, Sevenrooms, Deputy, and Monday.com.
+  \item Managed 3CX VoIP telephony system, handling extension creation, call routing, and handset provisioning.
+  \item Troubleshot Windows 10/11 login issues, printer connectivity, and hardware faults using remote support tools.
+  \item Performed IT onboarding for new staff, configuring laptops, email accounts, and ensuring access to business apps.
+  \item Escalated complex infrastructure issues to Level 2/3 teams with detailed troubleshooting documentation.
+\end{itemize}
 
 %----------CERTIFICATIONS----------
-\section{Certifications}
-\small{\textit{Vendor-authorized professional training via Coursera:}} \href{https://aayushacharya.com.au/certifications.pdf}{\underline{(View full Portfolio at aayushacharya.com.au/certifications.pdf)}}
-\vspace{2pt}
-\resumeItemListStart
-  \resumeItem{\textbf{Microsoft Certified: Endpoint Administrator Associate (MD-102)} -- Intune, Autopilot (Jan 2026)}
-  \resumeItem{\textbf{Cisco Certified Support Technician (CCST)} -- Networking \& Security (Jan 2026)}
-  \resumeItem{\textbf{ServiceNow Fundamentals} -- Incident Management, ITIL Workflows (Jan 2026)}
-  \resumeItem{\textbf{Pearson Certified: CompTIA A+ Core 1 Prep} -- Hardware, Mobile Devices, Network Config (Jan 2026)}
-\resumeItemListEnd
-
-%----------TECHNICAL PROJECTS----------
-\section{Technical Projects}
-    \resumeSubHeadingListStart
-    \resumeProjectHeading
-          {\textbf{Microsoft 365 Enterprise Tenant Administration} $|$ \emph{Home Lab}}{2024 to Present}
-          \resumeItemListStart
-            \resumeItem{Deployed a production-grade M365 Business tenant, configuring Entra ID (Azure AD) for user lifecycle management.}
-            \resumeItem{Self-hosted personal website handling DNS record management (A, CNAME, MX) to ensure correct routing.}
-            \resumeItem{Virtualized Windows Server instances (VirtualBox) to test Group Policy Objects (GPOs) and network security configurations.}
-          \resumeItemListEnd
-          \vspace{5pt}
-    \resumeProjectHeading
-          {\textbf{Enterprise Job Simulations (Virtual Experience)} $|$ \emph{Forage}}{Jan 2026}
-          \resumeItemListStart
-            \resumeItem{\textbf{Datacom Service Desk:} Completed practical tasks in technical issue resolution, customer support, and ticket escalation.}
-            \resumeItem{\textbf{nbn™ Trainee Field Technician:} Simulated fibre connection installation and resolved fibre-optic network faults.}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
-%----------TECHNICAL SKILLS----------
-\section{Technical Skills}
-\resumeItemListStart
-  \resumeItem{\textbf{Identity \& Access:} Microsoft Entra ID, User Management, RBAC, MFA, Group Policy (GPO)}
-  \resumeItem{\textbf{Endpoint Mgmt:} Microsoft Intune, Windows Autopilot, Windows 10/11, Patch Management}
-  \resumeItem{\textbf{Networking:} TCP/IP, DNS, DHCP, ISP Failover, Palo Alto GlobalProtect (VPN)}
-  \resumeItem{\textbf{Support Tools:} Freshservice, ServiceNow, Jira, 3CX VoIP (Port 5060/5061), Remote Desktop, Event Viewer}
-  \resumeItem{\textbf{Hardware:} Lenovo Laptops, HP Servers, POS Terminals, Cisco Webex, Printers}
-\resumeItemListEnd
-
-%----------OTHER PROFESSIONAL EXPERIENCE----------
-\section{Other Professional Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Catering and Events Supervisor}{September 2025 to Present}
-      {PwC Sydney}{Barangaroo, NSW}
-      \resumeItemListStart
-        \resumeItem{Manage high-stakes meeting and catering operations for C-Suite partners.}
-        \resumeItem{Log accurate, detailed incident reports in ServiceNow to assist technical teams, maintaining clear stakeholder communication.}
-      \resumeItemListEnd
-\vspace{5pt}
-    \resumeSubheading
-      {Prior Hospitality Career (Various Leadership Roles)}{2017 to 2022}
-      {Sydney, NSW}{}
-      \vspace{5pt}
-      \resumeItemListStart
-        \resumeItem{Assistant Manager \& Team Leader roles focused on high-volume customer service and staff training.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
+\section{Certifications \& Training}
+\textit{Professional training via Coursera:} \href{https://aayushacharya.com.au/certifications.pdf}{\underline{(View Credentials Portfolio:aayushacharya.com.au/certifications.pdf)}}
+\begin{itemize}
+  \item Microsoft Certified: Endpoint Administrator Associate (MD-102)
+  \item Cisco Certified Support Technician (CCST)
+  \item ServiceNow Fundamentals (Incident Management)
+  \item CompTIA A+ (Core 1)
+  \item Google IT Support Professional Certificate
+\end{itemize}
 
 %----------EDUCATION----------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Bachelor of Computer Applications (Cloud \& Security)}{Jan 2026 to 2029}
-      {Manipal University Jaipur}{Online}
-       \resumeItemListStart
-        \resumeItem{\small{Core Coursework: Cloud Computing, Network Security. \textit{Weekend study; full-time availability.}}}
-       \resumeItemListEnd
-      
-       \vspace{5pt}
-    \resumeSubheading
-      {Bachelor of Information Technology}{2018 to 2020}
-      {King's Own Institute (KOI), Australia (partial)}{}
-  \resumeSubHeadingListEnd
+\textbf{Bachelor of Computer Science (part-time/Online)} \hfill \textit{In Progress}\\
+MANIPAL UNIVERSITY JAIPUR
+
+\vspace{3pt}
+\textbf{Bachelor of Information Technology (Partial Completion)} \hfill \\
+KING'S OWN INSTITUTE, Australia
+
+%----------ADDITIONAL EXPERIENCE----------
+\section{Additional Experience}
+\textbf{Various Hospitality and customer service roles} \hfill \textit{2017 to 2024}
+\begin{itemize}
+  \item Developed strong customer service, communication, and problem-solving skills.
+\end{itemize}
 
 \end{document}
