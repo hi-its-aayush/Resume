@@ -5,8 +5,7 @@ This repository contains the **LaTeX source code** for my professional resume.
 As an IT professional focused on **Microsoft 365, Entra ID, Intune, AV & Technical Support**, I maintain my resume as code for precise formatting, version control, and an ATS-friendly layout.
 
 ## 🚀 View the Resume
-> **[Download the Latest PDF Version Here](https://aayushacharya.com.au/resume.pdf)**
-> *(Or view the compiled output in this repo as `Aayush_Acharya_IT_Resume.pdf`)*
+>  The compiled output in this repo as `Aayush_Acharya_IT_Resume.pdf`)*
 
 ## 🛠️ Built With
 * **Language:** LaTeX (TeX Live)
