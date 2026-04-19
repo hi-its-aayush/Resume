@@ -1,29 +1,27 @@
-# 📄 IT Support & Systems Admin Resume - Aayush Acharya
+# 📄 IT Support Resume — Aayush Acharya
 
-This repository contains the **LaTeX source code** for my professional resume. 
+This repository contains the **LaTeX source code** for my professional resume.
 
-As an IT professional focused on **Microsoft 365, Intune, and ServiceNow**, I maintain my resume as code to ensure precise formatting, version control, and an ATS-friendly layout.
+As an IT professional focused on **Microsoft 365, Entra ID, Intune, AV & Technical Support**, I maintain my resume as code for precise formatting, version control, and an ATS-friendly layout.
 
 ## 🚀 View the Resume
-> **[Download the Latest PDF Version Here](https://aayushacharya.com.au/resume.pdf)** > *(Or view the compiled output in this repo as `Aayush_Acharya_IT_Resume.pdf`)*
+> **[Download the Latest PDF Version Here](https://aayushacharya.com.au/resume.pdf)**
+> *(Or view the compiled output in this repo as `Aayush_Acharya_IT_Resume.pdf`)*
 
 ## 🛠️ Built With
 * **Language:** LaTeX (TeX Live)
 * **Editor:** Overleaf / VS Code
-* **Key Packages:** `titlesec`, `enumitem`, `hyperref` (for clickable links)
+* **Key Packages:** `titlesec`, `enumitem`, `hyperref`
 
 ## 📋 Features
 * **ATS-Optimized:** Clean structure with no columns or graphics that confuse parsing algorithms.
-* **One-Page Layout:** Aggressively compacted to fit high-impact content on a single sheet.
+* **Single-Page Layout:** Aggressively compacted to fit high-impact content on one sheet.
 * **Semantic Formatting:** Clear hierarchy for Experience, Skills, and Projects.
 
-
-## 🌐 Connect with Me
-I am currently based in **Sydney, NSW** and open to opportunities in IT Support, System Administration, and Cloud Operations.
-
+## 🌐 Connect
 * **Portfolio:** [aayushacharya.com.au](https://aayushacharya.com.au)
 * **LinkedIn:** [linkedin.com/in/aayushacharya](https://linkedin.com/in/aayushacharya)
-* **Email:** [aayushh@outlook.com.au](mailto:aayushh@outlook.com.au)
+* **Email:** [aayush@aayush.com.au](mailto:aayush@aayush.com.au)
 
 ---
-*Last Updated: January 2026*
+*Last Updated: April 2026*
