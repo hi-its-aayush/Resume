@@ -1,0 +1,224 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Aayush Acharya
+% License: MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Aayush Acharya} \\ \vspace{4pt}
+    \small Liverpool, NSW 2170 $|$ Full AU Working Rights \\ \vspace{2pt}
+    \small Service Desk Analyst $\bullet$ Level 1/2 IT Support $\bullet$ Sydney, NSW \\ \vspace{4pt}
+    \small P: 0448113330 $\bullet$
+    \href{mailto:aayush@aayush.com.au}{aayush@aayush.com.au} $\bullet$
+    \href{https://aayushacharya.com.au}{aayushacharya.com.au}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+Service Desk Analyst with 2+ years of enterprise IT support experience --- currently at PwC (PricewaterhouseCoopers) delivering end-user and AV technology support to partners and executives in a Big 4 environment. Proven across Microsoft 365, Entra ID, Intune, and Cisco Meraki with a 95\% first-contact resolution rate across 200+ users and 9 sites, backed by hands-on home lab work in Zero Trust, VLAN design, and virtual Active Directory.
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AV \& Technical Support Analyst}{Jun 2025 -- Present}
+      {PwC (PricewaterhouseCoopers), Sydney, NSW}{}
+      \resumeItemListStart
+        \resumeItem{Provide Level 1/2 end-user and technology support to partners, executives, and staff across meeting rooms, boardrooms, and large-scale corporate events in a Big 4 enterprise environment.}
+        \resumeItem{Administer and support Microsoft Teams Rooms, Cisco Webex systems, and conferencing infrastructure --- ensuring zero disruption during executive meetings, client presentations, and live events.}
+        \resumeItem{Troubleshoot and resolve hardware and connectivity issues across laptops, display inputs, network-dependent systems, and peripherals --- diagnosing failures fast under high-pressure, time-critical event conditions.}
+        \resumeItem{Deliver VIP-level deskside and remote support to senior partners and executives --- managing end-to-end incident resolution with full ownership from first contact through to close.}
+        \resumeItem{Configure and operate AV and event technology infrastructure --- projectors, LED displays, microphones, and stage equipment --- ensuring all hardware and network systems are production-ready for high-profile sessions.}
+      \resumeItemListEnd
+      \vspace{2pt}
+      \small\textit{Key Achievement: Maintained zero AV downtime across all high-stakes executive events and client-facing boardroom sessions --- consistently delivering seamless experiences under tight timelines with no escalations.}
+
+    \vspace{4pt}
+    \resumeSubheading
+      {IT Support Officer}{Feb 2024 -- Jun 2025}
+      {Platinum Hospitality Group, Sydney, NSW}{}
+      \resumeItemListStart
+        \resumeItem{Delivered Level 1/2 IT support to 200+ users across 9 locations via phone, email, and on-site; resolved 95\% of incidents at first contact, managing 15--30 tickets daily.}
+        \resumeItem{Administered Entra ID and Active Directory --- user provisioning, password resets, account lockouts, and full onboarding/offboarding workflows.}
+        \resumeItem{Managed Microsoft 365 suite: Exchange Online, Teams, OneDrive, SharePoint, shared mailboxes, and distribution lists.}
+        \resumeItem{Deployed and managed endpoints via Microsoft Intune and Windows Autopilot --- zero-touch provisioning, patch compliance, and device policy enforcement.}
+        \resumeItem{Maintained network infrastructure across 9 sites: Cisco Meraki switches, routers, Wi-Fi APs, DNS, and DHCP.}
+        \resumeItem{Enforced security best practices: MFA rollout, Conditional Access policies, and endpoint protection; liaised with vendors to resolve escalated issues within SLA.}
+      \resumeItemListEnd
+      \vspace{2pt}
+      \small\textit{Key Achievement: Sustained 95\% first-contact resolution rate across a 200+ user, 9-site environment while simultaneously managing Intune endpoint deployments and Entra ID administration with no dedicated IT team.}
+
+    \vspace{4pt}
+    \resumeSubheading
+      {Restaurant Manager}{Jan 2022 -- Feb 2024}
+      {Platinum Hospitality Group, Sydney, NSW}{}
+      \resumeItemListStart
+        \resumeItem{Served as de facto on-shift IT contact person --- independently resolved login failures, POS outages, and network disruptions without escalating to IT, minimising revenue-impacting downtime during peak service.}
+        \resumeItem{Reduced user-induced errors by training 15+ staff on internal tools, digital systems, and security best practices.}
+        \resumeItem{Documented recurring system issues with detailed troubleshooting context, enabling the IT team to accelerate root-cause analysis and reduce repeat incidents.}
+        \resumeItem{Streamlined staff onboarding by coordinating system access and hardware setup with the corporate IT team.}
+      \resumeItemListEnd
+      \vspace{2pt}
+      \small\textit{Key Learning: Operating as the sole IT contact across high-pressure, revenue-critical environments built an instinct for fast triage, clear stakeholder communication, and practical troubleshooting that formal IT roles later validated.}
+
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Identity \& Access}{: Active Directory, Entra ID, RBAC, MFA, Conditional Access, user provisioning \& offboarding} \\
+     \textbf{Microsoft 365}{: Exchange Online, Teams, OneDrive, SharePoint, shared mailboxes, distribution lists} \\
+     \textbf{Endpoint Management}{: Microsoft Intune, Windows Autopilot, JAMF, device deployment \& patch compliance} \\
+     \textbf{Networking}{: DNS, DHCP, TCP/IP, VLANs, site-to-site VPN, Cisco Meraki, routers, switches, Wi-Fi APs} \\
+     \textbf{Infrastructure}{: Windows Server 2022, Hyper-V, GPO, hybrid cloud, Microsoft Azure, virtual AD} \\
+     \textbf{Security}{: Zero Trust, Conditional Access, phishing-resistant MFA, endpoint protection, VPN} \\
+     \textbf{ITSM Tools}{: ServiceNow, Freshservice, Jira --- high-volume ticket management, SLA tracking} \\
+     \textbf{AV \& Hardware}{: Projectors, LED displays, conferencing systems (Teams/Zoom), VoIP (3CX), POS (Lightspeed)} \\
+    }}
+ \end{itemize}
+
+%-----------SOFT SKILLS-----------
+\section{Soft Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Leadership \& Collaboration}{: Skilled in team management and collaboration to optimize resource allocation.} \\
+     \textbf{Communication \& Client Relations}{: Experienced in vendor management and translating complex technical issues into actionable improvements for stakeholders.} \\
+     \textbf{Problem Solving \& Quality}{: Strong logical problem-solving ability with a quality-first mindset in fast-paced environments.} \\
+     \textbf{Operational Excellence}{: Proven track record in incident management, time management, and creating comprehensive knowledgebase documentation.} \\
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Hands On Technical Projects \& Home Lab}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Enterprise Infrastructure \& Security} $|$ \emph{Microsoft 365 E5 Tenant}}{}
+          \resumeItemListStart
+            \resumeItem{Architected a production-grade M365 E5 tenant with Entra ID: full user lifecycle management, RBAC, Conditional Access, and phishing-resistant MFA under a Zero Trust framework.}
+            \resumeItem{Deployed Intune MDM with Windows Autopilot for zero-touch provisioning; virtualised Windows Server 2022 with GPO hardening and network segmentation to simulate hybrid infrastructure.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{VLAN Network Design} $|$ \emph{Cisco Packet Tracer}}{}
+          \resumeItemListStart
+            \resumeItem{Designed multi-VLAN topologies with inter-VLAN routing via Layer 3 switches, access/trunk port configuration, and validated end-to-end connectivity across all segments.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Virtual Active Directory \& Site-to-Site VPN} $|$ \emph{Microsoft Azure / Entra}}{}
+          \resumeItemListStart
+            \resumeItem{Deployed virtual AD on Azure (Windows Server VMs, domain controllers, OUs, GPOs); designed a site-to-site VPN integrated with Microsoft Entra ID for a cloud-only tenant.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Portfolio Website \& DNS Infrastructure} $|$ \emph{GitHub Pages}}{}
+          \resumeItemListStart
+            \resumeItem{Built and deployed a portfolio site on GitHub Pages; configured DNS across three live domains (aayushacharya.com.au, aayush.com.au, googal.store) --- A records and CNAMEs with HTTPS.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Training \& Professional Development}
+\textit{Full portfolio: \href{http://aayushacharya.com.au/assets/pdfs/certifications.pdf}{aayushacharya.com.au/assets/pdfs/certifications.pdf}}
+\vspace{4pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      Microsoft Cloud Support Associate $\bullet$
+      MD-102: Endpoint Administrator $\bullet$
+      ServiceNow Basics: IT Automation \& AI-Powered Workflows $\bullet$
+      Cisco CCST IT Support (100-140) $\bullet$
+      CompTIA A+ Core 1 $\bullet$
+      Google IT Support Professional Certificate
+    }}
+ \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Computer Applications (Cloud \& Security) --- In Progress}{Expected 2029}
+      {Manipal University}{Remote / Part-Time}
+    \resumeSubheading
+      {Bachelor of Information Technology (2 years coursework completed)}{2018 -- 2020}
+      {King's Own Institute (KOI), Sydney, NSW}{}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
